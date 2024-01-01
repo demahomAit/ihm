@@ -22,7 +22,7 @@ body {
 }
 
 ::selection {
-    background: #4158d0;
+    background: #8d703b;
     color: #fff;
 }
 
@@ -41,7 +41,7 @@ body {
     color: #fff;
     user-select: none;
     border-radius: 15px 15px 0 0;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #8d703b, #f6f2ea);
 }
 
 .wrapper form {
@@ -68,7 +68,7 @@ body {
 
 .wrapper form .field input:focus,
 form .field input:valid {
-    border-color: #4158d0;
+    border-color: #8d703b;
 }
 
 .wrapper form .field label {
@@ -87,7 +87,7 @@ form .field input:focus~label,
 form .field input:valid~label {
     top: 0%;
     font-size: 16px;
-    color: #4158d0;
+    color: #8d703b;
     background: #fff;
     transform: translateY(-50%);
 }
@@ -110,7 +110,7 @@ form .content .checkbox {
 form .content input {
     width: 15px;
     height: 15px;
-    background: red;
+    background: #8d703b;
 }
 
 form .content label {
@@ -131,7 +131,7 @@ form .field input[type="submit"] {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #f6f2ea, #8d703b);
     transition: all 0.3s ease;
 }
 
@@ -147,11 +147,11 @@ form .signup-link {
 
 form .pass-link a,
 form .signup-link a {
-    color: #4158d0;
+    color: #8d703b;
     text-decoration: none;
 }
 
 form .pass-link a:hover,
 form .signup-link a:hover {
     text-decoration: underline;
-}
+} 
